@@ -1,0 +1,114 @@
+/* Body */
+body {
+}
+
+.container .row .col-lg-7{
+  color: #ffffff;
+}
+
+.container .row .col-lg-6 .header-logo{
+	margin-top: 100px;
+}
+
+/* Navigation */
+.navbar{
+	background: #333333;
+}
+
+.navbar .container .collapse .navbar-nav .nav-link{
+	font-size: 16px;
+}
+/* Navigation */
+
+/* Baner Section */
+.banner-section{
+	height: 100%;
+	background: url('../img/banner.png') no-repeat center center fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bg-transparent-color{
+	height: 100%;
+	width: 100%;
+	/*background: rgba(0, 0, 0, 0.5);*/
+	opacity: 0.9;
+	background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+
+.banner-section .container .row .col-lg-7 p{
+	font-size: 16px;
+	color: #ffffff;	
+}
+
+.banner-section .container .row .col-lg-6 a{
+	padding: 10px 25px;
+	min-height: 50px;
+	min-width: 150px;
+	border: none;
+	color: #ffffff;
+	background-color: #666666;
+}
+/* //Baner Section */
+
+/* Vision Section */
+.vision-section{
+	width: 100%;
+	color: #ffffff;
+	background: #333333;
+}
+
+.vision-section .container .row .col-lg-12{
+	padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.vision-section .container .row .col-lg-12 p{
+	font-size: 16px;
+	color: #ffffff;
+}
+/* //Vision Section */
+
+/* Why work with us Section */
+.why-section .container .row .col-lg-6 .p-5 p{
+	font-size: 16px;
+}
+/* //Why work with us Section */
+
+/* Contact Section */
+.contact-section .title{
+	color: #333333;
+}
+
+.contact-section p{
+	color: #333333;
+	font-size: 12px;
+}
+
+.contact-section .container .row .col-lg-4{
+	margin-bottom: 5%;
+	text-align: center;
+}
+/* //Contact Section */
+
+/* Map */
+.map {
+	height: 500px;
+}
+@media(max-width:768px) {
+	.map {
+			height: 75%;
+	}
+}
+.map iframe {
+	pointer-events: none;
+}
+/* //Map */
+
+/* Footer */
+.footer{
+	margin-bottom: 55px
+	;
+}
+/* /Footer */
